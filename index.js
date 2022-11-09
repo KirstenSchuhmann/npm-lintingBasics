@@ -1,6 +1,6 @@
 function toggleButton() {
   const cards = document.querySelectorAll('[data-js="card"]');
-  const button = card.querySelectorAll('[data-js="buttons"]');
+  // const buttons = card.querySelectorAll('[data-js="button"]');
 
   cards.forEach(card => {
     const button = card.querySelector('[data-js="button"]');
@@ -13,3 +13,5 @@ function toggleButton() {
     });
   });
 }
+
+toggleButton();
